@@ -31,3 +31,17 @@ Evallo is a web application for sharing and managing content.
 
 ```bash
 git clone https://github.com/pratikganjale55/Evallo.git
+ 
+
+2. Install package:
+
+```bash
+ cd Client
+ npm install 
+ npm run dev
+
+ cd Server 
+ npm install 
+ npm start
+
+ 
