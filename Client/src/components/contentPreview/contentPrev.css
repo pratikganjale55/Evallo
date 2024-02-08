@@ -1,0 +1,57 @@
+.cardGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 20px;
+    margin-top: 2%;
+}
+
+.card {
+  position: relative;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+p{
+    color: grey;
+}
+.description{
+  max-height: 3.5rem;
+  overflow: hidden;
+  position: relative;
+  
+}
+.descriptionMore {
+  max-height: 6rem;
+}
+.more{
+  display: block;
+  cursor: pointer;
+  margin-bottom: 1%;
+  padding: 5px;
+  color: blue;
+ 
+}
+.fileAnchor{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px 15px;
+}
+.fileAnchor a {
+    
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 5px;
+    color: rgb(26, 26, 26);
+}
+.fileAnchor a:nth-child(1){
+  background-color: rgb(111, 191, 191);
+  
+}
+.fileAnchor a:nth-child(2){
+  cursor: pointer;
+  background-color: #cdcaca;
+}
