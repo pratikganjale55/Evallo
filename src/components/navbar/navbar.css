@@ -1,0 +1,40 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #f9f9f9;
+}
+
+nav h1 {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 1.5em;
+}
+
+ul {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 1%;
+    padding: 0;
+  }
+  
+  ul li {
+    display: inline-block;
+  }
+  
+  ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    
+  }
+  
+  ul li a:hover {
+    background-color: #a8a6a6;
+  }
