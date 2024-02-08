@@ -31,7 +31,7 @@ Evallo is a web application for sharing and managing content.
 
 ```bash
 git clone https://github.com/pratikganjale55/Evallo.git
- 
+ ```
 
 2. Install package:
 
@@ -43,5 +43,9 @@ git clone https://github.com/pratikganjale55/Evallo.git
  cd Server 
  npm install 
  npm start
+```
+3.Add credientals as a DATABASE url (MongoDB)
+4. Open http://localhost:3000 to view it in the browser 
+5. Open http://localhost:8080 to backend run in the browser 
 
- 
+

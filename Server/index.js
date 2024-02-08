@@ -13,7 +13,7 @@ app.use(express.json()) ;
 app.use(express.static("files"))
 app.use("/", router)
  
-app.listen(process.env.PORT, async() => {
+app.listen(process.env.PORT || 8080, async() => {
     await connection ;
     console.log(`Server start at ${process.env.PORT}`)
 })
