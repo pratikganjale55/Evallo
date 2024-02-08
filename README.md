@@ -44,8 +44,8 @@ git clone https://github.com/pratikganjale55/Evallo.git
  npm install 
  npm start
 ```
-3.Add credientals as a DATABASE url (MongoDB)
-4. Open http://localhost:3000 to view it in the browser 
-5. Open http://localhost:8080 to backend run in the browser 
+3.Add credientals as a DATABASE url (MongoDB) <br/>
+4. Open http://localhost:3000 to view it in the browser  <br/>
+5. Open http://localhost:8080 to backend run in the browser  <br/>
 
 
